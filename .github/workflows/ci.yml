@@ -48,8 +48,7 @@ jobs:
         run: |
           mlflow models build-docker \
             --model-uri "runs:/${{ env.RUN_ID }}/model" \
-            --name telco-churn-model \
-            --enable-mlserver
+            --name telco-churn-model
 
       - name: Tag and push Docker image
         run: |

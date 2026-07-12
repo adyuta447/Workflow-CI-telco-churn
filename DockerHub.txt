@@ -1,0 +1,1 @@
+https://hub.docker.com/r/<isi-username-dockerhub-anda>/telco-churn-model
